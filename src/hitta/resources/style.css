@@ -1,0 +1,53 @@
+#hitta {
+    background: transparent;
+    padding: 20px;
+}
+
+#main-view {
+    background: rgba(40,40,40,0.9);
+    color: white;
+    padding: 5px 10px 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.2),
+      0 0 13px 8px rgba(0,0,0,.1);
+}
+
+#input {
+    background: rgba(80,80,86, 0.9);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+#results {
+    margin-top: 5px;
+    background: transparent;
+    color: white;
+}
+
+#results > row {
+    background: transparent;
+    padding: 5px 0;
+}
+
+#results > row:selected {
+    background: rgba(80,80,80, 0.9);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#results > row:focus {
+    outline: none;
+    border: none;
+}
+
+#results > row:hover {
+    color: red;
+}
+
+#description {
+    color: rgb(188,188,196);
+}
+
