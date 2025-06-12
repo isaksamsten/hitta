@@ -28,7 +28,7 @@
 
 #results > row {
     background: transparent;
-    padding: 5px 0;
+    padding: 5px 5px;
 }
 
 #results > row:selected {

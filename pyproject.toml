@@ -15,3 +15,6 @@ hitta = "hitta:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.pyright]
+reportUnusedCallResult = false
